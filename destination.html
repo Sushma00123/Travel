@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand ms-4 h1 " href="index.html">Time To Travel</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                </div>
+                </div>
+                <form class="d-flex" id="searchForm">
+                    <input class="form-control me-2" type="search" placeholder="Search" name="query" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </nav>
+        </header> 
+        <!-------------------------------------Destination---------------------------------->
+        <section class="destination ">
+            <h3 class="text-center" >Destination</h3>
+            <div class="row" >
+                <h4 class="ms-4">Lists of Visiting Places</h4>
+                <div class="col-6 card" style="width: 18rem; margin-left: 30px;" id="places">
+
+                </div>
+                <div class="col-6" id="info">
+                    <h4 class="text-center">Information</h4>
+                    <div class="card" id="details">
+                       
+                      
+                        <div class="card-body">
+                          <h5 class="card-title" id="title"></h5>
+                          <p class="card-text" id="summary"></p>
+                          
+                        </div>
+                      </div>
+                     
+                </div>
+
+            </div>
+        </section>
+
+
+           
+           
+          
+     
+
+        <hr> 
+<!-------------------------------------------------------------------------------------------->
+        <footer class="container mb-3">
+            <div class="row">
+                <div class="col-md-3 text-center">
+                    <h5>Time To Travel</h5>
+                    <p>Discover your next holiday destination</p>
+                </div>
+                <div class="col-md-3 text-center" id="footer">
+                    <h5>Explore</h5>
+                    <a href="#">Home</a>
+                    <a href="#about us">About Us</a><br>
+                    <a href="#package">Package</a>
+                    <a href="#review">Review</a>
+                </div>
+                <div class="col-md-3 text-center" id="icon">
+                    <h5>Connect with us</h5>
+                    <i class="fa-brands fa-facebook-square"></i>
+                    <i class="fa-brands fa-instagram-square"></i>
+                    <i class="fa-brands fa-twitter-square"></i>
+                </div>
+                <div class="col-md-3 text-center">
+                    <h5>Download our app</h5>
+                    <img src="images/images5.jpg" alt="" width="200px" height="50px">
+    
+                </div>
+            </div>
+        </footer>
+        <script src="destination.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+            integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+            integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+            crossorigin="anonymous"></script>     
+</body>
+</html>

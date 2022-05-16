@@ -1,0 +1,117 @@
+
+
+.img{
+    height: 500px;
+    width: 100%;
+}
+#icon i{
+    font-size: 40px;
+    margin:auto;
+    cursor: pointer;
+}
+#footer a {
+    text-decoration: none;
+    color:black;
+
+}
+#rating i{
+    color: yellow;
+}
+#logoutBtn{
+   visibility: hidden;
+}
+
+
+/* visitng places */
+#visitingPlaces h3{
+text-align: center;
+margin-top: 20px;
+}
+#visitingPlaces img{
+width:300px;
+height: 150px;
+margin-top: 30px;
+
+}
+#visitingPlaces h5{
+    margin-top: 15px;
+    text-align: center;
+}
+#visitingPlaces img{
+    transform: scale(1);
+    transition: 0.3s ease-in-out;
+}
+ #visitingPlaces img:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+  }
+
+  /* review */
+  .slideshow-container {
+    position: relative;
+    background: #d7ee6ef1;
+  }
+  .mySlides {
+    display: none;
+    padding: 80px;
+    text-align: center;
+  }
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    color: #888;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  .next {
+    position: absolute;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+  }
+  .dot-container {
+    text-align: center;
+    padding: 20px;
+    background: #ddd;
+  }
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+   .dot:hover {
+    background-color: #717171;
+  }
+  q {font-style: italic;}
+  .author {color: cornflowerblue;}
+
+/* #info {
+    width: 500px;
+    height:200px;
+    margin-left: 450px;
+}
+#title{
+    font-size: 25px;
+}
+#places{
+    background-color: aquamarine;
+}
+#places p{
+cursor: pointer;
+font-size: 15px;
+font-weight: bold;
+} */
