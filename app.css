@@ -1,5 +1,4 @@
 
-
 .img{
     height: 500px;
     width: 100%;
@@ -99,19 +98,3 @@ margin-top: 30px;
   q {font-style: italic;}
   .author {color: cornflowerblue;}
 
-/* #info {
-    width: 500px;
-    height:200px;
-    margin-left: 450px;
-}
-#title{
-    font-size: 25px;
-}
-#places{
-    background-color: aquamarine;
-}
-#places p{
-cursor: pointer;
-font-size: 15px;
-font-weight: bold;
-} */
